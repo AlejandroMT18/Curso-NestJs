@@ -1,5 +1,4 @@
 import axios from "axios";
-// import { PokeApiResponse } from "../interfaces/pokeapi-response.interface";
 
 export interface HttpAdapter {
 

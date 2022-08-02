@@ -28,7 +28,7 @@ export class Pokemon {
         console.log(`${this.name.toUpperCase()}!!`);
     }
 
-    @Deprecated('Not use speak')
+    @Deprecated('Do not use speak')
     speak() {
         console.log(`${this.name}`);
     }

@@ -1,6 +1,4 @@
 import './style.css'
-//  import typescriptLogo from './typescript.svg'
-// import { setupCounter } from './counter';
 import { pokemonIds, niño } from './base/Objects&interfaces';
 // import { pokemon } from './base/clases';
 // import { pokemon } from './base/decorators';

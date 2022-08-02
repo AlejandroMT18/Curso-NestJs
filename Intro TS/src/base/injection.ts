@@ -11,6 +11,7 @@ export class Pokemon {
         public readonly id:number, 
         public name: string, 
         public type: string,
+
         //inyeccion de dependecias
         private readonly http: HttpAdapter
     ) {}
@@ -40,6 +41,7 @@ export const pokemon = new Pokemon (
     'Pikachu',
     'Electrico',
     pokeApiFetch
+    // pokeApi
     );
 
 console.log( pokemon.getMoves );
