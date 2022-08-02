@@ -2,7 +2,10 @@ import './style.css'
 //  import typescriptLogo from './typescript.svg'
 // import { setupCounter } from './counter';
 import { pokemonIds, niño } from './base/Objects&interfaces';
-import { pokemon } from './base/clases';
+// import { pokemon } from './base/clases';
+// import { pokemon } from './base/decorators';
+import { pokemon } from './base/decorator2';
+
 
 document.querySelector<HTMLDivElement>('#types')!.innerHTML = `
         <h2>
@@ -26,7 +29,7 @@ document.querySelector<HTMLDivElement>('#classes')!.innerHTML = `
         </h2>
 `
 
-// pokemon.scream();
-// pokemon.speak();
+// charmander.scream();
+// charmander.speak();
 
 // setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
